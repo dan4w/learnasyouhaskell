@@ -39,5 +39,5 @@ f = [adjectives ++ " " ++ nouns | adjectives <- adjectives, nouns <- nouns]
 length' xs = sum [ 1| _ <- xs]
 
 
--- Removes everything except uppcase letters
+-- Removes everything except uppcase letters.
 removeNonUppercase st = [ c | c <- st, c `elem` ['A'..'Z']]
