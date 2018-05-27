@@ -13,3 +13,8 @@ Basic functions that work with lists
 texasRange.hs
 
 Basic functions with relation to ranges.
+
+listComprehension.hs
+
+Basic set comprehension examples.
+
